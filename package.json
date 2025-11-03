@@ -1,7 +1,7 @@
 {
   "name": "remote-slides",
   "version": "1.0.0",
-  "description": "",
+  "description": "Remote Slides transforma tu teléfono en un control remoto para tus presentaciones de Google Slides. Ejecutá la app, conectá tu dispositivo móvil y manejá tus diapositivas sin cables, sin interrupciones y sin depender de un clicker tradicional.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,6 @@
   "dependencies": {
     "express": "^5.1.0",
     "node-key-sender": "^1.0.11",
-    "qrcode-terminal": "^0.12.0",
     "socket.io": "^4.8.1"
   }
 }
