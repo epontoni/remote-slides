@@ -22,3 +22,11 @@ cloudflared tunnel --url http://localhost:3000
 ```
 
 Esto lo hace el script `start.bat` por nosotros.
+
+## Iniciar la app
+
+```bash
+npm run start
+```
+
+o ejecutamos el archivo `start.bat`

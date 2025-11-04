@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "start:all": "node run.js"
+    "start": "node run.js",
+    "server": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
   "dependencies": {
     "express": "^5.1.0",
     "node-key-sender": "^1.0.11",
+    "qrcode": "^1.5.4",
     "socket.io": "^4.8.1"
   }
 }
